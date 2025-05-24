@@ -1,0 +1,94 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3a3a3a;
+  background-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h5 {
+  color: #3a3a3a;
+}
+
+a {
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #4c4c4c;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #f4c7c3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #f0b3af;
+}
+
+.navbar {
+  border-bottom: 1px solid #eee;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #4c4c4c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #d63384;
+  border-bottom: 2px solid #d63384;
+}
+
+button {
+  font-family: inherit;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  border-radius: 50%;
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+}
